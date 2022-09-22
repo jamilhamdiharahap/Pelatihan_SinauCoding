@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto";
+}
+
+.conten-1 {
+  background-color: coral;
+  background-image: url("../image/html.png");
+  background-repeat: repeat-y;
+  background-position: left;
+  background-size: 100px;
+}
+.conten-1 center > :nth-child(2) {
+  font-weight: bold;
+  color: #c55300;
+}
+
+.conten-2 {
+  background-color: #87a2fb;
+  background-image: url("../image/css.png");
+  background-repeat: repeat-y;
+  background-position: right;
+  background-size: 100px;
+}
+
+.conten-1 center > button {
+  padding: 8px;
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
+  background-color: #f57328;
+  color: #fff;
+}
+.conten-1 center > a:active {
+  color: #c55300;
+}
+
+.conten-2 > center > button {
+  padding: 8px;
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
+  background-color: #87a2fb;
+  color: #fff;
+}
+
+.conten-2 center > a::active {
+  color: #182747;
+}
+
+.conten-2 center > :nth-child(2) {
+  font-weight: bold;
+  color: #182747;
+}

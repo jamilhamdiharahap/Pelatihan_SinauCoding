@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+header {
+  display: flex;
+  background-color: gray;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+}
+
+header > h2 {
+  padding: 1rem;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+nav > a {
+  padding: 0.5rem;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.banner > img {
+  background-size: cover;
+  width: 50%;
+}
+
+.article {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.first-item {
+  padding: 1rem;
+  min-width: 678px;
+  width: 100%;
+  border-radius: 16px;
+  opacity: 0.9;
+  background-color: #3CCF4E;
+}
+
+.first-item > * {
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  display: block;
+}
+
+.first-item > h1 {
+  font-weight: 200;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+
+.first-item > span {
+  font-weight: 300;
+}
+
+.second-item {
+  background-color: #3AB0FF;
+  border-radius: 16px;
+  opacity: 0.8;
+  padding: 1rem;
+}
+.second-item > * {
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+footer {
+  margin-bottom: 0.5rem;
+  background-color: black;
+  position: relative;
+  padding: 1rem;
+}
+footer > span {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
